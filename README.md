@@ -71,7 +71,7 @@ FROM solution
 WHERE row_desc - row_asc <= 1;
 ```
 
-###4️⃣ TCS Data Analyst Interview Question
+### 4️⃣ TCS Data Analyst Interview Question
 **Retrieve the emp_id, emp_name, and manager_name from the employees table (managers are also employees).**
 
 ```sql
@@ -84,7 +84,7 @@ LEFT JOIN employees2 AS e2
 ON e1.manager_id = e2.emp_id;
 ```
 
-###5️⃣ Flipkart Business Analyst Interview Question
+### 5️⃣ Flipkart Business Analyst Interview Question
 **Write a SQL query to calculate the running total revenue for each combination of date and product ID.**
 
 ```sql
@@ -98,7 +98,7 @@ FROM orders2
 ORDER BY product_id, date ASC;
 ```
 
-###6️⃣ Top 5 Most Frequently Ordered Dishes by Customer
+### 6️⃣ Top 5 Most Frequently Ordered Dishes by Customer
 **Write a query to find the top 5 most frequently ordered dishes by customer called "Arjun Mehta" in the last 1 year.**
 
 ```sql
